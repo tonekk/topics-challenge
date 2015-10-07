@@ -1,0 +1,35 @@
+body
+  font-family: 'Roboto'
+  padding: 2em
+
+main
+  position: relative
+
+span
+  &.positive
+    color: green
+  &.negative
+    color: red
+
+word-cloud
+  max-width: 640px
+  display: block
+
+word
+  display: inline-block
+  padding: 1em
+  color: blue
+  cursor: pointer
+
+  &:hover
+    > span
+      text-decoration: underline
+
+
+topic-info
+  display: block
+  position: absolute
+  right: 2em
+
+  &.empty
+    display: none

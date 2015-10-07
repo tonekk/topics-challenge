@@ -1,0 +1,48 @@
+{
+  "topics": [
+    {
+      "id": "1",
+      "label": "Berghain",
+      "volume": 165,
+      "type": "topic",
+      "sentiment": {
+        "negative": 3,
+        "neutral": 133,
+        "positive": 29
+      },
+      "sentimentScore": 65
+    },
+    {
+      "id": "2",
+      "label": "Kater Blau",
+      "volume": 48,
+      "type": "topic",
+      "sentiment": {
+        "neutral": 18,
+        "negative": 30
+      },
+      "sentimentScore": 20
+    },
+    {
+      "id": "3",
+      "label": "Sisyphos",
+      "volume": 6,
+      "type": "topic",
+      "sentiment": {
+        "neutral": 4,
+        "positive": 2
+      },
+      "sentimentScore": 83
+    },
+    {
+      "id": "4",
+      "label": "about:blank",
+      "volume": 30,
+      "type": "topic",
+      "sentiment": {
+        "neutral": 30
+      },
+      "sentimentScore": 50
+    }
+  ]
+}
